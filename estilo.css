@@ -1,0 +1,81 @@
+body{
+    background-color: lightblue;
+}
+
+@media (orientation: portrait) {
+    html {
+      background-color: limegreen;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    html {
+      background-color: yellow;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+  
+  span.capital {
+    float: left;
+    background-color: pink;
+    color: red;
+    font-family: monospace;
+    font-size: 400%;
+  }
+  p.paises {
+    background-color: lightsalmon;
+    color: rgb(238, 75, 75);
+    font-family: 'Zhi Mang Xing', cursive;
+    line-height: 300%;
+    font-size: 30px;
+    font-variant-posititon: under:
+
+
+}
+    
+  header::first-letter {
+    background-color: pink;
+    color: chocolate;
+    font-family:Helvetica;
+    font-size: 400%;
+  }
+section.verde{
+    background-color: rgb(110, 218, 96);
+    
+}
+p:first-child {
+    color: red;
+  }
+section.bianco{
+    background-color: blanchedalmond;
+}
+table{
+    background-color: goldenrod;
+    border-spacing: 20px;
+    border: black 1px solid;
+    border-collapse: separate;
+    width: 100px;
+    height: 30px;
+}
+td.amarillo:hover{
+    background-color: yellow;
+}
+
+footer{
+    background-color: rgb(238, 75, 75);
+    text-align: center;
+}
+tr.borde{
+    border: black;
+}
+section.amarillo1{
+    text-decoration: yellow;
+    background-color: chocolate;
+    border-top: blue 15px dotted;
+    border-left: red 5px solid;
+    border-right: red 5px solid;
+    border-bottom: yellow 20px dashed;
+    text-align: center;
+    color: yellow;
+}
+
